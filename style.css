@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 255, 255);
+  background-image: url(web-designer-kottayam-background.jpg);
+  background-size: cover;
+}
+header {
+  display: flex;
+  align-items: center;
+  font: 200;
+  color: black;
+  font-weight: bolder;
+}
+nav {
+  justify-items: flex-end;
+  margin-left: auto;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+}
+.text {
+  margin-bottom: 120px;
+  margin-left: 150px;
+}
+h1 {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 60px;
+}
+p {
+  margin-left: 100px;
+  font-size: large;
+}
+.butt {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+button {
+  margin: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(162, 192, 162);
+  color: white;
+  height: 40px;
+  font-size: 17px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-color: honeydew;
+}
+#circle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: 1px;
+}
+#circle a{
+  margin-left: 5px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 400px;
+  background-color: rgb(139, 184, 139);
+  margin-top: 0%;
+}
+.one {
+  margin-left: 90px;
+  color: white;
+  background-color: rgb(162, 192, 162);
+  height: 400px;
+  margin: 0px;
+}
+.one img {
+  margin-left: 300px;
+  color: rgb(224, 209, 209);
+}
+.one p {
+  margin-left: 200px;
+}
+.two {
+  margin-left: auto;
+  color: white;
+  /* background-color: rgb(127, 127, 172); */
+  height: 400px;
+  margin: 0px;
+}
+
+.two img {
+  height: 130px;
+  margin-left: 200px;
+}
+.three {
+  margin-left: auto;
+  color: white;
+  /* background-color: rgb(209, 153, 33); */
+  height: 400px;
+  margin: 0px;
+}
+.three img {
+  height: 130px;
+  margin-left: 200px;
+}
+.four {
+  margin-left: auto;
+  color: white;
+  background-color: rgb(162, 192, 162);
+  height: 400px;
+  margin: 0px;
+}
+
+.four img {
+  height: 130px;
+  margin-left: ;
+}
+.four p {
+  margin-left: auto;
+}
+.text2 {
+  max-height: 600px;
+  background-color: rgb(231, 231, 231);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: auto;
+}
+.first h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.second {
+  background-image: url(web-designer-kottayam-background.jpg);
+  background-size: cover;
+}
+.third {
+  background-image: url(web-designer-kottayam-background.jpg);
+  background-color: rgb(11, 216, 127);
+  background-size: cover;
+
+  color: rgb(148, 137, 137);
+}
+.third h1 {
+  margin-top: 0px;
+}
+.third h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 2px grey;
+  color: beige;
+  box-decoration-break: slice;
+  font-size: large;
+}
